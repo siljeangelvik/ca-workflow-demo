@@ -4,10 +4,12 @@
   "description": "demo for course assignment: workflow",
   "type": "module",
   "entry-point": "src/index.js",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
     "one-liner-joke": "^1.2.2"
   },
   "devDependencies": {
+    "eslint": "^8.26.0",
     "prettier": "^2.7.1"
   }
 }
