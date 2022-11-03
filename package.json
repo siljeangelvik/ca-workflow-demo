@@ -6,17 +6,24 @@
   "entry-point": "src/index.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/js/joker.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/siljeangelvik/ca-workflow-demo.git"
   },
-  "keywords": ["demo", "course assignment", "workflow"],
+  "keywords": [
+    "demo",
+    "course assignment",
+    "workflow"
+  ],
   "author": "Silje A-",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/siljeangelvik/ca-workflow-demo/issues"
   },
-  "homepage": "https://github.com/siljeangelvik/ca-workflow-demo#readme"
+  "homepage": "https://github.com/siljeangelvik/ca-workflow-demo#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
