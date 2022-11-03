@@ -32,5 +32,17 @@
   "devDependencies": {
     "eslint": "^8.26.0",
     "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.scss": [
+      "prettier --write"
+    ]
   }
 }
