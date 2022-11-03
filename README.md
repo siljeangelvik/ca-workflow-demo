@@ -1,7 +1,5 @@
 # ca-workflow-demo
 
-# hello-jest-github-actions
-
 on `commit`:  
 ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 on `push`:  
