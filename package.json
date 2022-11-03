@@ -1,0 +1,33 @@
+{
+  "name": "ca-workflow-demo",
+  "version": "1.0.0",
+  "description": "demo for course assignment: workflow",
+  "type": "module",
+  "entry-point": "src/index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siljeangelvik/ca-workflow-demo.git"
+  },
+  "keywords": [
+    "demo",
+    "course assignment",
+    "workflow"
+  ],
+  "author": "Silje A-",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siljeangelvik/ca-workflow-demo/issues"
+  },
+  "homepage": "https://github.com/siljeangelvik/ca-workflow-demo#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
