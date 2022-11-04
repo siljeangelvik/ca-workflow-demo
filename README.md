@@ -1,10 +1,10 @@
 # ca-workflow-demo
 
 on `commit`:  
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
-on `push`:  
-![Jest](https://github.com/siljeangelvik/hello-jest-github-actions/actions/workflows/jest.yml/badge.svg)
-on `pull_request`:  
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)  
+on `push`:    
+![Jest](https://github.com/siljeangelvik/hello-jest-github-actions/actions/workflows/jest.yml/badge.svg)  
+on `pull_request`:    
 ![Cypress](https://github.com/siljeangelvik/hello-jest-github-actions/actions/workflows/cypress.yml/badge.svg)
 
 Forked GitHub repository from [NoroffFEU/social-media-client](https://github.com/NoroffFEU/social-media-client).  
