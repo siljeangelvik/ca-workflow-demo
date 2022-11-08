@@ -29,8 +29,8 @@ Push local branch: `sass-bootstrap-liveserver` to remote repository
 
 - command: `git push -u origin sass-bootstrap-liveserver`
 
-Set up Prettier (manually):
-Set up ESLint (manually):
+Set up Prettier (manually)
+Set up ESLint (manually)
 
 Create new branch: `setup-jest-cypress`
 
